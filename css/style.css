@@ -43,17 +43,32 @@ a{
 .box-1{ 
   background-color: red;
   width: 100% ;
-  min-height: 500px;
-  margin-bottom: 10px;
   background-size: contain;
   font-size: 70px;
-  
+  text-align: center;
+  color: yellow;
 }
+
+.box-2{ 
+  background-color: green;
+  width: 100% ;
+  background-size: contain;
+  font-size: 70px;
+  text-align: center;
+  color: yellow;
+}
+.box-3{ 
+  background-color: yellow;
+  width: 100% ;
+  background-size: contain;
+  font-size: 70px;
+  text-align: center;
+  color: green;
+}
+
 
 #scarpa-1{
   background-image: url(../img/01.png);
-  background-repeat: no-repeat;
-  
 }
 
 #scarpa-2{
