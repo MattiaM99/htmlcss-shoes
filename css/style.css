@@ -21,6 +21,11 @@ header{
   z-index: 500;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 li{
   display: inline-block;
   background-color: white;
@@ -37,44 +42,33 @@ a{
   color: black;
   text-decoration: none;
   line-height: 30px;
-  padding: 17px 14px;
 }
 
-.box-1{ 
-  background-color: red;
+.box{ 
   width: 100% ;
+  height: 100vh;
   background-size: contain;
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
-  color: yellow;
 }
 
-.box-2{ 
-  background-color: green;
-  width: 100% ;
-  background-size: contain;
-  font-size: 70px;
-  text-align: center;
-  color: yellow;
+.center{
+  width: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
 }
-.box-3{ 
-  background-color: yellow;
-  width: 100% ;
-  background-size: contain;
-  font-size: 70px;
-  text-align: center;
-  color: green;
-}
-
 
 #scarpa-1{
-  background-image: url(../img/01.png);
+  background-color:red;
+  color: yellow;
 }
-
 #scarpa-2{
-  background-image: url(../img/02.png);
+  background-color:green;
+  color: yellow;
 }
-
 #scarpa-3{
-  background-image: url(../img/03.png);
+  background-color:yellow;
+  color: green;
 }
